@@ -13,5 +13,5 @@ post '/named-cat' do
 end
 
 get '/cat-form' do
-erb[:cat_form]
+  erb(:cat_form)
 end
